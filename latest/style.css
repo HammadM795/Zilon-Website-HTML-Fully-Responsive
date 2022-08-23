@@ -23,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 3%;
+  padding: 8px 4%;
   color: white;
 }
 .menu a {
