@@ -17,9 +17,9 @@
     <div class="container">
         <header>
             <div class="header-data">
-                <nav class="navbar">
+                <div class="navbar">
                     <div class="logo"><img src="Images/Zilon-Logo.png" alt="Zilon Logo" class="zilon-logo"></div>
-                    <div class="menu">
+                    <nav id="nav">
                         <ul>
                             <li><a class="active" href="#">Home</a></li>
                             <li><a href="#overview">About</a></li>
@@ -28,9 +28,9 @@
                             <li><a href="#">Contact</a></li>
                         </ul>
                         <button class="button">REQUEST A MEETING</button>
-                    </div>
-                    <i class="fas fa-bars"></i>
-                </nav>
+                    </nav>
+                    <i class="fas fa-bars" onclick="myFunction();"></i>
+                </div>
             </div>
         </header>
         <div class="landing-page">
@@ -192,5 +192,11 @@
         </footer>
     </div>
 </body>
+<script type="text/javascript">
+    function myFunction() {
+        var navbar = document.getElementsById("nav")
+        navbar.classList.toggle('show');
+    }
+</script>
 
 </html>

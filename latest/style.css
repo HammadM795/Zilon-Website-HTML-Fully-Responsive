@@ -26,28 +26,28 @@ header {
   padding: 8px 4%;
   color: white;
 }
-.menu a {
+nav a {
   color: black;
   font-weight: 600;
   text-decoration: none;
 }
-.menu a:hover {
+nav a:hover {
   color: #0d6efd;
 }
-.menu a.active {
+nav a.active {
   color: #0d6efd;
 }
-.menu {
+nav {
   font-size: 18px;
   align-items: center;
   display: flex;
   gap: 1em;
 }
-.menu ul {
+nav ul {
   display: flex;
   gap: 1em;
 }
-.menu ul li {
+nav ul li {
   padding: 5px 8px;
   list-style: none;
 }
@@ -263,24 +263,24 @@ strong {
     padding: 8px 8.5%;
     color: white;
   }
-  .menu a {
+  nav a {
     color: black;
     font-weight: 600;
     text-decoration: none;
   }
-  .menu a:hover {
+  nav a:hover {
     color: #0d6efd;
   }
-  .menu a.active {
+  nav a.active {
     color: #0d6efd;
   }
-  .menu {
+  nav {
     font-size: 12px;
   }
-  .menu ul {
+  nav ul {
     gap: 0px;
   }
-  .menu ul li {
+  nav ul li {
     padding: 5px 8px;
   }
   .button {
@@ -339,16 +339,18 @@ strong {
   .zilon-logo {
     max-width: 90px;
   }
-  .menu {
+  nav {
     display: none;
+  }
+  nav.show {
+    display: block;
   }
   .button {
     display: none;
   }
   .fa-bars {
-    color: #0d6efd;
-    font-size: 26px;
     display: block;
+    cursor: pointer;
   }
   #landing-page-logo {
     width: 70%;
@@ -460,9 +462,10 @@ strong {
   .zilon-logo {
     max-width: 90px;
   }
-  .menu {
+  nav {
     display: none;
   }
+
   .button {
     display: none;
   }
