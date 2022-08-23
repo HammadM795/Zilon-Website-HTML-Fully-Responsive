@@ -257,10 +257,9 @@ strong {
   nav {
     display: none;
     width: 100%;
-
     border-top: 2px solid #0d6efd;
     position: absolute;
-    top: 50px;
+    top: 48px;
     left: 0%;
     background-color: white;
     padding: 10px 20px;
@@ -341,10 +340,9 @@ strong {
   nav {
     display: none;
     width: 100%;
-
     border-top: 2px solid #0d6efd;
     position: absolute;
-    top: 50px;
+    top: 48px;
     left: 0%;
     background-color: white;
     padding: 10px 20px;
@@ -485,7 +483,7 @@ strong {
     width: 100%;
     border-top: 2px solid #0d6efd;
     position: absolute;
-    top: 50px;
+    top: 48px;
     left: 0%;
     background-color: white;
     padding: 10px 15px;
