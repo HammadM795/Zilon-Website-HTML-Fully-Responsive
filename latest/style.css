@@ -34,9 +34,6 @@ nav a {
 nav a:hover {
   color: #0d6efd;
 }
-nav a.active {
-  color: #0d6efd;
-}
 nav {
   font-size: 18px;
   align-items: center;
@@ -66,10 +63,11 @@ nav ul li {
   background-color: #003a92;
   color: white;
 }
-.fa-bars {
+.toggle-btn {
   color: #0d6efd;
   font-size: 28px;
   display: none;
+  cursor: pointer;
 }
 .land-operation {
   max-width: 1200px;
@@ -189,7 +187,7 @@ label {
   margin: auto auto;
 }
 .brand-logos {
-  padding: 20px 70px;
+  padding: 20px 69px;
 }
 .footer {
   display: flex;
@@ -256,36 +254,37 @@ strong {
   #landing-page-logo {
     width: 80%;
   }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 8.5%;
-    color: white;
-  }
-  nav a {
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  nav a:hover {
-    color: #0d6efd;
-  }
-  nav a.active {
-    color: #0d6efd;
-  }
   nav {
-    font-size: 12px;
+    display: none;
+    width: 100%;
+
+    border-top: 2px solid #0d6efd;
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    background-color: white;
+    padding: 10px 20px;
+    z-index: 1;
   }
   nav ul {
-    gap: 0px;
+    display: contents;
   }
   nav ul li {
-    padding: 5px 8px;
+    max-width: 100%;
+  }
+  nav ul li a:hover {
+    border-bottom: 1px solid #0d6efd;
+  }
+  nav.show {
+    display: block;
   }
   .button {
-    padding: 4px 6px;
-    font-size: 8px;
+    font-size: 14px;
+    padding: 5px 9px;
+  }
+  .toggle-btn {
+    color: #0d6efd;
+    display: block;
   }
   .operations {
     background-color: white;
@@ -341,16 +340,35 @@ strong {
   }
   nav {
     display: none;
+    width: 100%;
+
+    border-top: 2px solid #0d6efd;
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    background-color: white;
+    padding: 10px 20px;
+    z-index: 1;
+  }
+  nav ul {
+    display: contents;
+  }
+  nav ul li {
+    max-width: 100%;
+  }
+  nav ul li a:hover {
+    border-bottom: 1px solid #0d6efd;
   }
   nav.show {
     display: block;
   }
   .button {
-    display: none;
+    font-size: 14px;
+    padding: 5px 9px;
   }
-  .fa-bars {
+  .toggle-btn {
+    color: #0d6efd;
     display: block;
-    cursor: pointer;
   }
   #landing-page-logo {
     width: 70%;
@@ -464,14 +482,33 @@ strong {
   }
   nav {
     display: none;
+    width: 100%;
+    border-top: 2px solid #0d6efd;
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    background-color: white;
+    padding: 10px 15px;
+    z-index: 1;
   }
-
+  nav ul {
+    display: contents;
+  }
+  nav ul li {
+    max-width: 100%;
+  }
+  nav ul li a:hover {
+    border-bottom: 1px solid #0d6efd;
+  }
+  nav.show {
+    display: block;
+  }
   .button {
-    display: none;
+    font-size: 14px;
+    padding: 5px 9px;
   }
-  .fa-bars {
+  .toggle-btn {
     color: #0d6efd;
-    font-size: 26px;
     display: block;
   }
   #landing-page-logo {

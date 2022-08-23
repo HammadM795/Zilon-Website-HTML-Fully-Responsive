@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <header>
             <div class="header-data">
@@ -21,15 +20,15 @@
                     <div class="logo"><img src="Images/Zilon-Logo.png" alt="Zilon Logo" class="zilon-logo"></div>
                     <nav id="nav">
                         <ul>
-                            <li><a class="active" href="#">Home</a></li>
-                            <li><a href="#overview">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="overview.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                         <button class="button">REQUEST A MEETING</button>
                     </nav>
-                    <i class="fas fa-bars" onclick="myFunction();"></i>
+                    <i class="fas fa-bars toggle-btn" onclick="myFunction();"></i>
                 </div>
             </div>
         </header>
@@ -194,7 +193,7 @@
 </body>
 <script type="text/javascript">
     function myFunction() {
-        var navbar = document.getElementsById("nav");
+        var navbar = document.getElementById('nav');
         navbar.classList.toggle('show');
     }
 </script>
