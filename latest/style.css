@@ -245,119 +245,118 @@ strong {
   color: #747474;
 }
 
-@media only screen and (min-width: 767px) {
-}
-.container {
-  width: 100%;
-  max-height: 100%;
-  background-position: center;
-}
-.zilon-logo {
-  max-width: 90px;
-  margin-left: 9%;
-}
-#landing-page-logo {
-  width: 90%;
-  height: 60%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.three-operations {
-  display: block;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  font-size: 14px;
-}
-.operations {
-  padding: 25px 44px;
-}
-.operations-logo1 {
-  padding: 10px 5px;
-  margin: 0px;
-  line-height: 18px;
-}
-.operations-logo {
-  padding: 10px 5px;
-}
-.header {
-  padding: 5px;
-  font-size: 12px;
-  line-height: 20px;
-}
-.overview-header {
-  padding: 10px 0px;
-  font-weight: bold;
-  font-size: 20px;
-}
-.overview-body {
-  padding: 10px 0px;
-  line-height: 20px;
-  font-size: 13px;
-}
-.zilon-solution-body {
-  padding: 2% 9%;
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-.zilon-solution-data {
-  font-size: 12px;
-  line-height: 20px;
-  padding: 15px 0px;
-  text-align: left;
-  width: 100%;
-}
-.zilon-solution-data h3 {
-  margin-bottom: 1rem;
-  font-size: 16px;
-}
-.fa-arrow-right {
-  font-size: 6px;
-  padding: 2px 3px;
-  margin-right: 5px;
-}
-.customers {
-  display: block;
-}
-.brand-logos {
-  padding: 20px 83px;
-}
-.footer {
-  display: block;
-  padding: 10px 9%;
-}
-.footer-data {
-  display: block;
-  align-items: center;
-}
-.footer-links {
-  font-size: 16px;
-  padding: 20px 10%;
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    max-height: 100%;
+    background-position: center;
+  }
+  .zilon-logo {
+    max-width: 90px;
+    margin-left: 9%;
+  }
+  #landing-page-logo {
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .three-operations {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .operations {
+    padding: 25px 44px;
+  }
+  .operations-logo1 {
+    padding: 10px 5px;
+    margin: 0px;
+    line-height: 18px;
+  }
+  .operations-logo {
+    padding: 10px 5px;
+  }
+  .header {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .overview-header {
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .overview-body {
+    padding: 10px 0px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .zilon-solution-body {
+    padding: 2% 9%;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .zilon-solution-data {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px 0px;
+    text-align: left;
+    width: 100%;
+  }
+  .zilon-solution-data h3 {
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
+  .fa-arrow-right {
+    font-size: 6px;
+    padding: 2px 3px;
+    margin-right: 5px;
+  }
+  .customers {
+    display: block;
+  }
+  .brand-logos {
+    padding: 20px 83px;
+  }
+  .footer {
+    display: block;
+    padding: 10px 9%;
+  }
+  .footer-data {
+    display: block;
+    align-items: center;
+  }
+  .footer-links {
+    font-size: 16px;
+    padding: 20px 10%;
 
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-zilon {
+    line-height: 22px;
+  }
+  .footer-links ul {
+    line-height: 24px;
+  }
+  hr {
+    margin-top: 1px;
+  }
+  .contact-us {
+    line-height: 24px;
+    color: #747474;
+  }
+  footer {
+    padding: 18px;
+    font-size: 14px;
+  }
 }
-.about-zilon {
-  line-height: 22px;
-}
-.footer-links ul {
-  line-height: 24px;
-}
-hr {
-  margin-top: 1px;
-}
-.contact-us {
-  line-height: 24px;
-  color: #747474;
-}
-footer {
-  padding: 18px;
-  font-size: 14px;
-}
-
 @media only screen and (min-width: 375px) and (max-width: 575px) {
   .container {
     width: 100%;
