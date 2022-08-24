@@ -19,6 +19,9 @@ header {
   background-color: white;
   align-items: center;
 }
+.zilon-logo {
+  cursor: pointer;
+}
 .navbar {
   display: flex;
   align-items: center;
